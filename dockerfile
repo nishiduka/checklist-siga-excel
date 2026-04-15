@@ -6,4 +6,4 @@ RUN npm ci
 COPY . .
 
 EXPOSE 3000
-CMD ["npm", "server"]
+CMD ["node", "app.js"]
