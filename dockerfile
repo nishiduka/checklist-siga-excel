@@ -5,5 +5,5 @@ COPY package*.json ./
 RUN npm ci
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3016
 CMD ["node", "app.js"]
